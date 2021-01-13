@@ -1,0 +1,80 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.title {
+  font-size: 24px;
+  margin: 0 auto;
+  color: blue;
+  display: block;
+  clear: both;
+  align: center;
+  width: 35%;
+  text-align: center;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#result {
+  font-size: 48px;
+  Color: red;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  
+}
+
+input {
+  color: red;
+  opacity: .5;
+  font-size: 32px;
+  width: 35%;
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+input:hover {
+  color: red;
+  opacity: 1;
+  font-size: 32px;
+  box-shadow: 5px 10px lightblue;
+}
+
+button {
+  font-size: 32px;
+  margin: 0 auto;
+  width: 35%;
+  display: block;
+  justify-content: center;
+  clear: both;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
